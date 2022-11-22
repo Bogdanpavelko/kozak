@@ -1,0 +1,73 @@
+.start{
+background-color: gold;
+border: 2px solid blue;
+line-height: 30px;
+font-size: 20px;
+margin-bottom: 80px;
+}
+.year{
+    background-color: yellow;
+padding: 30px;
+padding-right: 40px;
+padding-left: 40px;
+margin-bottom: 30px;
+}
+.hetman {
+    background-color: blue;
+padding: 30px;
+padding-right: 40px;
+padding-left: 40px;   
+}
+.one{
+text-align: center;
+ }
+.kr{
+width: 100%;
+}
+.meny-list{
+list-style: none;
+padding:0 ;
+margin: 0;
+display: flex;
+justify-content: flex-end;
+
+}
+.meny-{
+    text-decoration: none;
+display: block;
+padding: 15px 30px;
+background-color: gold;
+border-radius: 15px;
+text-align: center;
+
+
+}
+.meny{
+padding: 20px 20px;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+ }
+.wrap{
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+@media(max-width:1024){
+    .wrap{
+        max-width: 600px;
+        padding: 0 10px;
+    }
+    .meny-{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 15px 30px;
+    background-color: gold;
+    border-radius: 15px;
+    text-align: center; 
+    width: 25%;
+    
+}
+ }
